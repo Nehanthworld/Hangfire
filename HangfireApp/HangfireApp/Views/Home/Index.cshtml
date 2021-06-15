@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Create Hangfire jobs</p>
+    <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Fireandforget">Fire and forget</a>
+    <a class="btn btn-success" asp-area="" asp-controller="Home" asp-action="Delayed">Delayed</a>
+    <a class="btn btn-warning" asp-area="" asp-controller="Home" asp-action="Recurring">Recurring</a>
+    <a class="btn btn-danger" asp-area="" asp-controller="Home" asp-action="Continuations">Continuations</a>
+</div>
+
